@@ -1,10 +1,10 @@
 
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'  /* se utiliza para crear enlaces en la aplicación de React */
 
 const NavLink = ({ children, to }) => {
   return (
-    <Link to={to}>
-      <span className="nav-link" style={{ color: 'none' }}>{children}</span>
+    <Link to={to}> {/* link se usa para crear un enlace de navegación */}
+      <span className="nav-link" style={{ color: 'inherit' }}>{children}</span>
     </Link>
   )
 }

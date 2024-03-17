@@ -11,9 +11,9 @@ function App() {
     <>
       <div>
         <NavBar/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+        <Routes> {/* contiene las rutas */}
+          <Route path="/" element={<Home/>}/> {/* especifica que cuando la URL sea "/", se renderizará el componente Home */}
+          <Route path="/contact" element={<Contact/>}/> {/* especifica que cuando la URL sea "/contact" se renderizará el componente contacto */}
         </Routes>
       </div>
     </>
